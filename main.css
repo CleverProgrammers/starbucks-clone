@@ -1,0 +1,21 @@
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.info {
+    background-color: #d8e8e3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.info span {
+    max-width: 60%;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    color: #000000;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0,0,0,.87);
+}
+
+a {
+    color:  rgb(0, 0, 0);
+}
+
+header {
+    width: 100%;
+    height: 101px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.header-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.header-container .left-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: block;
+    padding-left: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav ul li:hover {
+    color: #008248;
+    cursor: pointer;
+}
+
+.header-container nav {
+    height: 100%;
+}
+
+.header-container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    width: 51px;
+    height: 51px;
+    margin-right: 16px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.find-store {
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in, .join-now {
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.join-now {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+}
+
